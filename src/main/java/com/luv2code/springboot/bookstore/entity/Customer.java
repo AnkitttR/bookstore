@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="customers")
-public class Customers {
+public class Customer {
 	
 	// define fields
 		@Id
@@ -27,12 +27,12 @@ public class Customers {
 		private String email;
 		
 		// define constructors
-			public Customers() {  // No argument constructor required by Hibernate
+			public Customer() {  // No argument constructor required by Hibernate
 				
 			}
 			
 			// new constructor having id parameter
-			public Customers(int id, String firstName, String lastName, String email) {
+			public Customer(int id, String firstName, String lastName, String email) {
 				this.id = id;
 				this.firstName = firstName;
 				this.lastName = lastName;
