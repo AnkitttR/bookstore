@@ -21,8 +21,8 @@ public class BookController {
 	private BookService bookService;
 	
 	@Autowired
-	public BookController(BookService thebookService) {
-		bookService = thebookService;    // Constructor injection
+	public BookController(BookService theBookService) {
+		bookService = theBookService;    // Constructor injection
 	}						// thebookService ki help se Interface bookService ke saare methods bookService ko assign honge.
 	                 
 	// add mapping for "/list"

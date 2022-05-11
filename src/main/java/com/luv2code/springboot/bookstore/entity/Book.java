@@ -28,9 +28,9 @@ public class Book {
 		}
 		
 		// new constructor having id parameter
-		public Book(int id, String firstName, String lastName, String email) {
+		public Book(int id, String bookName) {
 			this.id = id;
-			this.bookName = firstName;
+			this.bookName = bookName;
 			
 		}
 		
