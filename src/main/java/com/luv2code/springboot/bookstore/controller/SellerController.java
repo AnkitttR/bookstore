@@ -13,9 +13,9 @@ public class SellerController {
 	private SellerService sellerService;
 	
 	@Autowired
-	public SellerController(SellerService theEmployeeService) {
-		sellerService = theEmployeeService;    // Constructor injection
-	}
-	
+	public SellerController(SellerService theSellerService) {
+		sellerService = theSellerService;    // Constructor injection
+	}						// theSellerService ki help se Interface SellerService ke saare methods sellerService ko assign honge.
+	                 
 
 }
