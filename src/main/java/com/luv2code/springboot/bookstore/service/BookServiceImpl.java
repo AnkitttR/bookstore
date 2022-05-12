@@ -44,8 +44,8 @@ public class BookServiceImpl implements BookService {
 	}
 
 	@Override
-	public void save(Book theEmployee) {
-		bookRepository.save(theEmployee);
+	public void save(Book theBook) {
+		bookRepository.save(theBook);
 
 	}
 
