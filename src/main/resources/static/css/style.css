@@ -1,0 +1,36 @@
+.bg-primary{
+    background: linear-gradient(to right , #254472, #0073a7, #00a3ac, #00cd7a, #a8eb12);
+}
+
+/* body{
+    background: linear-gradient(to right , #051937, #004d7a, #008793, #00bf72, #a8eb12);
+} */
+
+
+/* Icon on top of grid **************** */
+.my-icon{
+
+    font-size: 80px!important;
+    color:#00a3ac
+}
+/* Icon on top of grid **************** */
+
+
+/* Cursor******************* */
+.services-container{
+border:.5px solid #00a3ac;
+padding: 25px;
+cursor:pointer
+transition:200ms all ease-in-out;
+}
+/* Cursor******************* */
+
+
+/* Hover***************** */
+.services-container:hover{
+    background:rgb(136, 110, 110) ;
+    color:white;
+    border-radius: 20px;
+}
+/* Hover******************** */
+

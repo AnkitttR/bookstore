@@ -37,7 +37,7 @@ public class BookServiceImpl implements BookService {
 		}
 		else {
 			// we didn't find the book
-			throw new RuntimeException("Did not find employee id " + theId);
+			throw new RuntimeException("Did not find book id " + theId);
 		}
 		
 		return theBook;

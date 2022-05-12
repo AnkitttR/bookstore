@@ -4,13 +4,13 @@ import java.util.List;
 
 import com.luv2code.springboot.bookstore.entity.Book;
 
-public interface BookService {
+public interface CustomerService {
+
+public List<Customer> findAll();
 	
-public List<Book> findAll();
+	public Customer findById(int theId);
 	
-	public Book findById(int theId);
-	
-	public void save(Book theBook);
+	public void save(Book theCustomer);
 	
 	public void deleteById(int theId);
 

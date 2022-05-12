@@ -1,2 +1,81 @@
-<meta http-equiv="refresh"
-	  content="0; URL='books/list'">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Strore</title>
+    <!-- // included css materialize min css -->
+    <link rel="stylesheet" href="css/materialize.min.css"> 
+    <!-- // included css style css, iski coding alag se css file mein karenge -->
+    <!-- css folder ke under style.css file -->
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/bootstrap-4-utilities.min.css"> 
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- navbar -->
+    <nav class="bg-primary">
+        <!-- class container for increasing distance from both ends in nav bar -->
+        <div class ="container">
+            
+        <div class="nav-wrapper">
+
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+          <a href="#" class="brand-logo">Book Store Official</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html"><i class="material-icons left">home</i>Home</a></li>
+            <li><a href="badges.html"><i class="material-icons left">assignment_ind</i>About</a></li>
+            <li><a href="collapsible.html"><i class="material-icons left">call_end</i>Contact Us</a></li>
+          </ul>
+        </div>
+    </div>
+      </nav>
+      <!-- End of nav bar -->
+      
+	<div class="container center-align">
+    <h2 class="white-text center-align mt-5 pt-5">Book Store</h2>
+    
+    <a href="@{/sellers/showFormForSellerSignup}">
+    <button class="btn bg-primary btn-large">Seller SignUp</button>
+    </a>
+    
+    
+    
+    <a href="@{/customers/showFormForCustomerSignup}">
+    <button class="btn bg-primary btn-large">Customer SignUp </button>
+    </a>
+
+	<a href="@{/sellers/showFormForSellerLogin}">
+    <button class="btn bg-primary btn-large">Seller Login</button>
+    </a>
+    
+    
+    
+    <a href="@{/customers/showFormForCustomerSignup}">
+    <button class="btn bg-primary btn-large">Customer Login </button>
+    </a>
+	
+	
+  </div>
+  
+  <!-- For initialization we need some J Query Code -->
+
+
+   <!-- // Included jquery from j query website -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <!-- // included javascript materialize min js -->
+   <script src="js/materialize.min.js"></script> 
+
+   <script>
+$(document).ready(function(){
+})
+$('.parallax').parallax();
+ </script>
+}
+	
+</body>
